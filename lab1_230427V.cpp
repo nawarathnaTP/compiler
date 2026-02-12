@@ -125,7 +125,6 @@ int main() {
         if (isOperatorChar(c)) {
             if(c =='-' && input[pos+1] == '>'){
                 tokens.emplace_back(TokenType::OPERATOR, "->");
-                cout << "landmark2" << endl;
                 pos+=2;
                 continue;
                 }      
